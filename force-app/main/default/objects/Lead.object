@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Application_Source__c</fullName>
+        <label>Application Source</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Community</fullName>
+                    <default>false</default>
+                    <label>Community</label>
+                </value>
+                <value>
+                    <fullName>Webhook</fullName>
+                    <default>false</default>
+                    <label>Webhook</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Federal_Tax_Id__c</fullName>
+        <externalId>false</externalId>
+        <label>Federal Tax Id</label>
+        <length>40</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+</CustomObject>
